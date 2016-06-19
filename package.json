@@ -1,0 +1,21 @@
+{
+  "name": "dev-toolbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . dev-toolbox --platform=darwin --arch=x64"
+  },
+  "keywords": [],
+  "author": "Andrew McDowell <madoliole@gmail.com> (http://madole.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^0.4.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.3"
+  }
+}
