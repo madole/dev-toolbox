@@ -2,12 +2,12 @@ const { app, Tray, Menu, BrowserWindow } = require('electron');
 const path = require('path');
 const childProcess = require('child_process');
 
-const iconPath = path.join(__dirname, 'icon.png');
-const atomIconPath = path.join(__dirname, 'atom.png');
-const vscodeIconPath = path.join(__dirname, 'vscode.png');
-const iTermIconPath = path.join(__dirname, 'iTerm2.png');
-const chromeIconPath = path.join(__dirname, 'chrome.png');
-const firefoxIconPath = path.join(__dirname, 'firefox.png');
+const iconPath = path.join(__dirname, 'icons/icon.png');
+const atomIconPath = path.join(__dirname, 'icons/atom.png');
+const vscodeIconPath = path.join(__dirname, 'icons/vscode.png');
+const iTermIconPath = path.join(__dirname, 'icons/iTerm2.png');
+const chromeIconPath = path.join(__dirname, 'icons/chrome.png');
+const firefoxIconPath = path.join(__dirname, 'icons/firefox.png');
 
 let appIcon = null;
 let win = null;
