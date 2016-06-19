@@ -56,10 +56,10 @@ app.on('ready', () => {
                 childProcess.exec('open -a firefox').unref();
             }
         },
-    { label: 'Quit',
-      accelerator: 'Command+Q',
-      selector: 'terminate:'
-    }
+        { label: 'Quit',
+          accelerator: 'Command+Q',
+          selector: 'terminate:'
+        }
     ]);
     appIcon.setContextMenu(contextMenu);
 });
