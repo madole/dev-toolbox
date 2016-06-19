@@ -11,7 +11,7 @@ Shortcuts are also configured:
 
 ---
 
-![http://i.imgur.com/LDKBWJJ.png](http://i.imgur.com/LDKBWJJ.png)
+![http://i.imgur.com/5vNwzvb.png](http://i.imgur.com/5vNwzvb.png)
 
 ![http://i.imgur.com/z9YRWC5.png?1](http://i.imgur.com/z9YRWC5.png?1)
 
