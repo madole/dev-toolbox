@@ -3,11 +3,11 @@
 A small application that puts an icon in the system tray that when clicked, shows a dropdown of Atom, VSCode, iTerm, Chrome and Firefox so you have easy access to these apps all the time.
 
 Shortcuts are also configured:
-- Atom -> Cmd + A
-- VSCode -> Cmd + V
-- iTerm -> Cmd + I
-- Google Chrome -> Cmd + C
-- Firefox -> Cmd + F
+- Atom     -> Cmd + A
+- VSCode   -> Cmd + V
+- iTerm    -> Cmd + I
+- Chrome   -> Cmd + C
+- Firefox  -> Cmd + F
 
 ---
 
