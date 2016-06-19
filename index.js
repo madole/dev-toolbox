@@ -6,6 +6,9 @@ const iconPath = path.join(__dirname, 'icon.png');
 const atomIconPath = path.join(__dirname, 'atom.png');
 const vscodeIconPath = path.join(__dirname, 'vscode.png');
 const iTermIconPath = path.join(__dirname, 'iTerm2.png');
+const chromeIconPath = path.join(__dirname, 'chrome.png');
+const firefoxIconPath = path.join(__dirname, 'firefox.png');
+
 let appIcon = null;
 let win = null;
 
@@ -35,6 +38,22 @@ app.on('ready', function(){
       accelerator: 'Command+I',
       click: function() {
           childProcess.exec('open -a iterm').unref();
+      }
+    },
+    {
+      label: 'Chrome',
+      icon: chromeIconPath,
+      accelerator: 'Command+C',
+      click: function() {
+          childProcess.exec('open -a "Google Chrome"').unref();
+      }
+    },
+    {
+      label: 'Firefox',
+      icon: firefoxIconPath,
+      accelerator: 'Command+F',
+      click: function() {
+          childProcess.exec('open -a firefox').unref();
       }
     },
     { label: 'Quit',

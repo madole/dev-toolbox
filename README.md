@@ -1,17 +1,19 @@
 ## Dev Toolbox
 
-A small application that puts an icon in the system tray that when clicked, shows a dropdown of Atom, VSCode and iTerm so you have easy access to these apps all the time.
+A small application that puts an icon in the system tray that when clicked, shows a dropdown of Atom, VSCode, iTerm, Chrome and Firefox so you have easy access to these apps all the time.
 
 Shortcuts are also configured:
 - Atom -> Cmd + A
 - VSCode -> Cmd + V
 - iTerm -> Cmd + I
+- Google Chrome -> Cmd + C
+- Firefox -> Cmd + F
 
 ---
 
 ![http://i.imgur.com/LDKBWJJ.png](http://i.imgur.com/LDKBWJJ.png)
 
-![http://i.imgur.com/FoZ1Zpk.png?1](http://i.imgur.com/FoZ1Zpk.png?1)
+![http://i.imgur.com/z9YRWC5.png?1](http://i.imgur.com/z9YRWC5.png?1)
 
 
 To run the code:
